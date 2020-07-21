@@ -12,6 +12,7 @@ public class Main {
         for (j = 1; j < 10; j++) {
             System.out.println(add(j));
         }
+        System.out.println("Hello, World!");
         System.out.println("rabit");
     }
 }
