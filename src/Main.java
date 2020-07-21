@@ -4,7 +4,7 @@ public class Main {
         if(n==1){
             return 1;
         }
-        return n+add(n-1);
+        return n*add(n-1);
     }
 
     public static void main(String[] args) {
@@ -12,5 +12,6 @@ public class Main {
         for (i = 1; i < 10; i++) {
             System.out.println(add(i));
         }
+        System.out.println("rabit");
     }
 }
