@@ -12,5 +12,6 @@ public class Main {
         for (i = 1; i < 10; i++) {
             System.out.println(add(i));
         }
+        System.out.println("rabit");
     }
 }
